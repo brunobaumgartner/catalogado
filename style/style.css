@@ -1,0 +1,35 @@
+body{
+    background-color: #ddd;
+    font-family: Tahoma;
+}
+
+#corpo{
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.listagem{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.listagem tr{
+    height: 50px;
+}
+
+.listagem td{
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.listagem td:nth-child(1){
+    width: 50px;
+}
+
+.listagem td:nth-child(3){
+    width: 90px;
+}
+
